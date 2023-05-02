@@ -28,6 +28,6 @@ if(error instanceof AppError){
    message:' Internal server error'
   })
 })
-const PORT= process.env.PORT || 3333
+const PORT= process.env.PORT || 3333;
 
 app.listen(PORT,()=>{`Estou ouvindo na Port ${PORT}`})
